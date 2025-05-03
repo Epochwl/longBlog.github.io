@@ -3,13 +3,16 @@
   <entry>
     <title>Hello World</title>
     <url>/2025/03/05/hello-world/</url>
-    <content><![CDATA[<p>你好</p>
+    <content><![CDATA[<p>你好<br><img lazyload="" src="/images/loading.svg" data-src="https://ssaw.top/file/blog/1746274947917_Snipaste_2025-05-03_14-23-49.png" alt="Snipaste_2025-05-03_14-23-49.png|375"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://ssaw.top/file/blog/1746270920329_IMG_2907.PNG" alt="|400"></p>
+<p>#你好 </p>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">print("hello world")</span><br></pre></td></tr></table></figure></div>
 ]]></content>
       <categories>
         <category>测试用的</category>
       </categories>
       <tags>
-        <tag>Hello World</tag>
+        <tag>测试</tag>
       </tags>
   </entry>
   <entry>

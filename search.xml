@@ -1,29 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>欢迎你</title>
-    <url>/2025/03/06/page1/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>服务器</title>
-    <url>/2025/05/03/server1/</url>
-    <content><![CDATA[<p>啦啦啦啦</p>
-]]></content>
-      <categories>
-        <category>折腾</category>
-      </categories>
-      <tags>
-        <tag>折腾</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>关于对教程主义的思考</title>
     <url>/2025/03/05/%E5%85%B3%E4%BA%8E%E5%AF%B9%E6%95%99%E7%A8%8B%E4%B8%BB%E4%B9%89%E7%9A%84%E6%80%9D%E8%80%83/</url>
     <content><![CDATA[<h3 id="始于"><a href="#始于" class="headerlink" title="始于"></a>始于</h3><p>前段时间（好像在3月左右吧）在b站上看到了一个视频，转自油管<a class="link" href="https://youtu.be/piBzLIdg3Ks?si=O8kiw9LrMBQ9NVh8">If You’re Not Motivated to Code, Do This.<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>。使我感悟颇深，我开始进行反思。</p>
@@ -46,6 +23,28 @@
       <tags>
         <tag>感悟</tag>
         <tag>什么才算真正的学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo+cloudflare pages</title>
+    <url>/2025/03/06/hexo+cloudflare%20pages+obsidian/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>经验分享</category>
+      </categories>
+      <tags>
+        <tag>全流程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>服务器折腾</title>
+    <url>/2025/05/03/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%98%E8%85%BE/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>经验分享</category>
+      </categories>
+      <tags>
+        <tag>折腾</tag>
       </tags>
   </entry>
 </search>

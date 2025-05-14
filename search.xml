@@ -31,6 +31,7 @@
     <content><![CDATA[]]></content>
       <categories>
         <category>经验分享</category>
+        <category>技术向</category>
       </categories>
       <tags>
         <tag>全流程</tag>
@@ -39,7 +40,9 @@
   <entry>
     <title>服务器折腾(一)</title>
     <url>/2025/05/03/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%98%E8%85%BE%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h3 id="兴趣是最好的老师"><a href="#兴趣是最好的老师" class="headerlink" title="兴趣是最好的老师"></a>兴趣是最好的老师</h3><p>这一切的一切都源于一块板子，哦不，是那场比赛—<a class="link" href="http://gcxl.edu.cn/new/index.html">中国大学生工程实践与创新能力大赛<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>。去年十月份，学院下发这个比赛通知。说实话，我都没听过这个比赛（与我专业基本搭不上关系），出于好奇我也稍微看了一下，感觉还挺好玩的。之后同学s找到我，他说想参加试试，于是我们一拍即合，又去找了同学l和同学x组了一个队伍。我们选了智能赛道那个方向，要求制作一个可以对垃圾进行分类的回收装置。但最后的结果嘛，emmm，没有做出实物，最终只拿了一个校奖，但这些都不是重点。重点是当时同学s为此买了一个树莓派开发板外加一个显示屏。<br><img lazyload="" src="/images/loading.svg" data-src="https://picture.ssaw.top/file/blog/1747228382057_shumeipai.webp" alt="shumeipai.webp|450"></p>
+<p>当时看到这块板子我就被吸引住了，小巧的体积，不错的性能，美丽的价格（bushi）。同学s为它烧录树莓派专属的Linux系统，插上显示屏，就成了一个小型电脑了，刷b站毫无压力，有趣的嘞😄。当时我就也想着买一个这样的。之后我去淘宝搜索，好贵。去咸鱼搜，价格还好。诶？我想要的或许可以是一个迷你主机，而非一个开发板。它可以随时随地去访问这个主机，还比较小巧，并且价格合适，比树莓派性能更高。决定了！在我精心挑选之后选择了dell迷你主机（i5+16g+512g），890拿下。<br><img lazyload="" src="/images/loading.svg" data-src="https://picture.ssaw.top/file/blog/1747226553523_0025db570cc668be22861d5e2c6f48a.webp" alt="|350"><br>从此一发不可收拾…</p>
+]]></content>
       <categories>
         <category>经验分享</category>
       </categories>
@@ -67,6 +70,18 @@
       </categories>
       <tags>
         <tag>折腾</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>picgo+CloudFlare-ImgBed</title>
+    <url>/2025/05/14/picgo+CloudFlare-ImgBed/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>技术向</category>
+        <category>经验分享</category>
+      </categories>
+      <tags>
+        <tag>全流程</tag>
       </tags>
   </entry>
 </search>

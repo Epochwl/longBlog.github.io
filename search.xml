@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>关于对教程主义的思考</title>
-    <url>/2025/03/05/%E5%85%B3%E4%BA%8E%E5%AF%B9%E6%95%99%E7%A8%8B%E4%B8%BB%E4%B9%89%E7%9A%84%E6%80%9D%E8%80%83/</url>
-    <content><![CDATA[<h3 id="始于"><a href="#始于" class="headerlink" title="始于"></a>始于</h3><p>前段时间（好像在3月左右吧）在b站上看到了一个视频，转自油管<a class="link" href="https://youtu.be/piBzLIdg3Ks?si=O8kiw9LrMBQ9NVh8">If You’re Not Motivated to Code, Do This.<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>。使我感悟颇深，我开始进行反思。</p>
-<h3 id="现在面临的窘境"><a href="#现在面临的窘境" class="headerlink" title="现在面临的窘境"></a>现在面临的窘境</h3><p>”这是一个最好的时代，也是一个最坏的时代。“如今，我们处在信息爆炸式增长的时代，网上充斥着参差不齐的信息资源，各式各样的学习教程资源也已然占据了互联网的半壁江山。当遇到不会的问题，我习惯于从互联网寻找教程，从国内的搜索引擎、b站、知乎、CSDN到国外的搜索引擎、youtube、GitHub，往往都能找到有过相同问题的人及其对应的解决方案，这极大提升了我们的工作效率和学习效率。但是，这些知识真正能被我们所吸收吗？或者下次再遇到类似的问题能够独立解决吗？只能机械着跟着教程一步一步的走吗？这些正是我现在面临的窘境。</p>
-<h4 id="1、教程的重复性！"><a href="#1、教程的重复性！" class="headerlink" title="1、教程的重复性！"></a>1、教程的重复性！</h4><p>经常性的，比如我想为pc配置了一个环境，我会去搜教程，找到了一个合适的教程，跟着教程一步一步配置，生怕哪个环节出现问题，但不怎么过大脑，导致下次再遇到环境配置问题再去搜索教程，感觉陷入了被动思考的泥潭，心想着，反正有教程，跟着来准会没错。就像，在学校上课，老师在黑板上板书，手机相机一咔嚓，照片存起来，想着，反正已经拍下来了，之后再看呗，实际上过段时间就忘了曾经拍过照片。这种现象也被称为<a class="link" href="https://www.xinli001.com/info/100487906">拍照损伤效应（photo-taking-impairment-effect）<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>。</p>
-<h4 id="2、教程的权威性？"><a href="#2、教程的权威性？" class="headerlink" title="2、教程的权威性？"></a>2、教程的权威性？</h4><p>在有些时候，可能由于第一次接触陌生的事物（比如计算机相关知识），对于教程中的每一步只能完全照搬，生怕因为某些细节导致功亏一篑。事实上，这些东西的容错率高得离谱，大不了再来一次呗。1+1+1=&gt;3，1+0.5+1.5=&gt;3，0.5+0.5+2=&gt;3，”条条大路通罗马“，好的教程可能只是选取了对作者来说最优的一种方案，但不一定是最适合自己的。并且最重要的是在吸收理解该方案后能否举一反三。</p>
-<h3 id="如何破局？"><a href="#如何破局？" class="headerlink" title="如何破局？"></a>如何破局？</h3><p>针对第一种情况。俗话说，好记性不如烂笔头。我可以在广泛吸收他们经验教程后，取其精华，去其糟粕，整理成符合自己预期的，完整的解决方案。这个博客在此背景下应运而生。</p>
-<details class="blue" data-header-exclude=""><summary><i class="fa-solid fa-chevron-right"></i>我为什么选择博客而不是纸质记录？ </summary>
-              <div class="content">
-              <p>我的理由是：首先对于知识的整理吸收不限媒介，其次对于博客我可以随时随地记录自己的想法，只需一个手机即可，而不用随时携带纸和笔。最后，在保存方面，个人认为数据保存远比实体保存来的容易与持久。 </p>
-              </div>
-            </details>
-
-<p>针对第二种情况。重要的是将知识联系起来，在此基础上举一反三。就像做数学题目一样，这道题目的核心思想什么，有什么对应的解决方案，是否能与之建立关联，或者说两个的组合能够和它建立关联。实现此目标前提是有足够的知识储备，其次再去提创新。</p>
-<h3 id="接下来的想法"><a href="#接下来的想法" class="headerlink" title="接下来的想法"></a>接下来的想法</h3><p>写这篇博客已经离我创建这篇文章有两个月了，期间忙着各种各样的事。好在五一假期基本都忙完了，能够让我在假期这几天专心写博客。之后的博客我会将折腾服务器、搭建网站，springboot+vue项目等经历一一整理好并记录在此博客。以此记录我的成长。<br><img lazyload="" src="/images/loading.svg" data-src="https://picture.ssaw.top/file/blog/1746349757591_IMG_0454.jpeg" alt="IMG_0454.jpeg|425"></p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>感悟</tag>
-        <tag>什么才算真正的学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo+cloudflare pages</title>
     <url>/2025/03/06/hexo+cloudflare%20pages+obsidian/</url>
     <content><![CDATA[<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>有那么一个网站，<a class="link" href="https://naccl.top/home">在我心里萌发了搭建博客的想法…<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
@@ -78,6 +53,45 @@
       </tags>
   </entry>
   <entry>
+    <title>Springboot+vue前后端分离项目</title>
+    <url>/2025/05/18/Springboot+vue%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[<p>策马加“编”…</p>
+]]></content>
+      <categories>
+        <category>技术向</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>vue</tag>
+        <tag>前后端分离</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>picgo+CloudFlare-ImgBed</title>
+    <url>/2025/05/14/picgo+CloudFlare-ImgBed/</url>
+    <content><![CDATA[<p>策马加“编”…</p>
+]]></content>
+      <categories>
+        <category>技术向</category>
+        <category>经验分享</category>
+      </categories>
+      <tags>
+        <tag>全流程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>优选域名加速个人博客</title>
+    <url>/2025/05/18/%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D%E5%8A%A0%E9%80%9F%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>策马加“编”…</p>
+]]></content>
+      <categories>
+        <category>技术向</category>
+      </categories>
+      <tags>
+        <tag>搬运</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>服务器折腾(一)</title>
     <url>/2025/05/03/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%98%E8%85%BE%EF%BC%88%E4%B8%80%EF%BC%89/</url>
     <content><![CDATA[<h3 id="兴趣是最好的老师"><a href="#兴趣是最好的老师" class="headerlink" title="兴趣是最好的老师"></a>兴趣是最好的老师</h3><p>这一切的一切都源于一块板子，哦不，是那场比赛—<a class="link" href="http://gcxl.edu.cn/new/index.html">中国大学生工程实践与创新能力大赛<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>。去年十月份，学院下发这个比赛通知。说实话，我都没听过这个比赛（与我专业基本搭不上关系），出于好奇我也稍微看了一下，感觉还挺好玩的。之后同学s找到我，他说想参加试试，于是我们一拍即合，又去找了同学l和同学x组了一个队伍。我们选了智能赛道那个方向，要求制作一个可以对垃圾进行分类的回收装置。但最后的结果嘛，emmm，没有做出实物，最终只拿了一个校奖，但这些都不是重点。重点是当时同学s为此买了一个树莓派开发板外加一个显示屏。<br><img lazyload="" src="/images/loading.svg" data-src="https://picture.ssaw.top/file/blog/1747228382057_shumeipai.webp" alt="shumeipai.webp|450"></p>
@@ -115,42 +129,28 @@
       </tags>
   </entry>
   <entry>
-    <title>picgo+CloudFlare-ImgBed</title>
-    <url>/2025/05/14/picgo+CloudFlare-ImgBed/</url>
-    <content><![CDATA[<p>策马加“编”…</p>
+    <title>关于对教程主义的思考</title>
+    <url>/2025/03/05/%E5%85%B3%E4%BA%8E%E5%AF%B9%E6%95%99%E7%A8%8B%E4%B8%BB%E4%B9%89%E7%9A%84%E6%80%9D%E8%80%83/</url>
+    <content><![CDATA[<h3 id="始于"><a href="#始于" class="headerlink" title="始于"></a>始于</h3><p>前段时间（好像在3月左右吧）在b站上看到了一个视频，转自油管<a class="link" href="https://youtu.be/piBzLIdg3Ks?si=O8kiw9LrMBQ9NVh8">If You’re Not Motivated to Code, Do This.<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>。使我感悟颇深，我开始进行反思。</p>
+<h3 id="现在面临的窘境"><a href="#现在面临的窘境" class="headerlink" title="现在面临的窘境"></a>现在面临的窘境</h3><p>”这是一个最好的时代，也是一个最坏的时代。“如今，我们处在信息爆炸式增长的时代，网上充斥着参差不齐的信息资源，各式各样的学习教程资源也已然占据了互联网的半壁江山。当遇到不会的问题，我习惯于从互联网寻找教程，从国内的搜索引擎、b站、知乎、CSDN到国外的搜索引擎、youtube、GitHub，往往都能找到有过相同问题的人及其对应的解决方案，这极大提升了我们的工作效率和学习效率。但是，这些知识真正能被我们所吸收吗？或者下次再遇到类似的问题能够独立解决吗？只能机械着跟着教程一步一步的走吗？这些正是我现在面临的窘境。</p>
+<h4 id="1、教程的重复性！"><a href="#1、教程的重复性！" class="headerlink" title="1、教程的重复性！"></a>1、教程的重复性！</h4><p>经常性的，比如我想为pc配置了一个环境，我会去搜教程，找到了一个合适的教程，跟着教程一步一步配置，生怕哪个环节出现问题，但不怎么过大脑，导致下次再遇到环境配置问题再去搜索教程，感觉陷入了被动思考的泥潭，心想着，反正有教程，跟着来准会没错。就像，在学校上课，老师在黑板上板书，手机相机一咔嚓，照片存起来，想着，反正已经拍下来了，之后再看呗，实际上过段时间就忘了曾经拍过照片。这种现象也被称为<a class="link" href="https://www.xinli001.com/info/100487906">拍照损伤效应（photo-taking-impairment-effect）<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>。</p>
+<h4 id="2、教程的权威性？"><a href="#2、教程的权威性？" class="headerlink" title="2、教程的权威性？"></a>2、教程的权威性？</h4><p>在有些时候，可能由于第一次接触陌生的事物（比如计算机相关知识），对于教程中的每一步只能完全照搬，生怕因为某些细节导致功亏一篑。事实上，这些东西的容错率高得离谱，大不了再来一次呗。1+1+1=&gt;3，1+0.5+1.5=&gt;3，0.5+0.5+2=&gt;3，”条条大路通罗马“，好的教程可能只是选取了对作者来说最优的一种方案，但不一定是最适合自己的。并且最重要的是在吸收理解该方案后能否举一反三。</p>
+<h3 id="如何破局？"><a href="#如何破局？" class="headerlink" title="如何破局？"></a>如何破局？</h3><p>针对第一种情况。俗话说，好记性不如烂笔头。我可以在广泛吸收他们经验教程后，取其精华，去其糟粕，整理成符合自己预期的，完整的解决方案。这个博客在此背景下应运而生。</p>
+<details class="blue" data-header-exclude=""><summary><i class="fa-solid fa-chevron-right"></i>我为什么选择博客而不是纸质记录？ </summary>
+              <div class="content">
+              <p>我的理由是：首先对于知识的整理吸收不限媒介，其次对于博客我可以随时随地记录自己的想法，只需一个手机即可，而不用随时携带纸和笔。最后，在保存方面，个人认为数据保存远比实体保存来的容易与持久。 </p>
+              </div>
+            </details>
+
+<p>针对第二种情况。重要的是将知识联系起来，在此基础上举一反三。就像做数学题目一样，这道题目的核心思想什么，有什么对应的解决方案，是否能与之建立关联，或者说两个的组合能够和它建立关联。实现此目标前提是有足够的知识储备，其次再去提创新。</p>
+<h3 id="接下来的想法"><a href="#接下来的想法" class="headerlink" title="接下来的想法"></a>接下来的想法</h3><p>写这篇博客已经离我创建这篇文章有两个月了，期间忙着各种各样的事。好在五一假期基本都忙完了，能够让我在假期这几天专心写博客。之后的博客我会将折腾服务器、搭建网站，springboot+vue项目等经历一一整理好并记录在此博客。以此记录我的成长。<br><img lazyload="" src="/images/loading.svg" data-src="https://picture.ssaw.top/file/blog/1746349757591_IMG_0454.jpeg" alt="IMG_0454.jpeg|425"></p>
 ]]></content>
       <categories>
-        <category>技术向</category>
-        <category>经验分享</category>
+        <category>杂谈</category>
       </categories>
       <tags>
-        <tag>全流程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Springboot+vue前后端分离项目</title>
-    <url>/2025/05/18/Springboot+vue%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E9%A1%B9%E7%9B%AE/</url>
-    <content><![CDATA[<p>策马加“编”…</p>
-]]></content>
-      <categories>
-        <category>技术向</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>vue</tag>
-        <tag>前后端分离</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>优选域名加速个人博客</title>
-    <url>/2025/05/18/%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D%E5%8A%A0%E9%80%9F%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>策马加“编”…</p>
-]]></content>
-      <categories>
-        <category>技术向</category>
-      </categories>
-      <tags>
-        <tag>搬运</tag>
+        <tag>感悟</tag>
+        <tag>什么才算真正的学习</tag>
       </tags>
   </entry>
 </search>

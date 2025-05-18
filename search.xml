@@ -28,7 +28,47 @@
   <entry>
     <title>hexo+cloudflare pages</title>
     <url>/2025/03/06/hexo+cloudflare%20pages+obsidian/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>有那么一个网站，<a class="link" href="https://naccl.top/home">在我心里萌发了搭建博客的想法…<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<hr>
+<p>距离我的个人博客搭建完成已经有两个多月了，经过这两个多月的捣鼓，我学到了好多新的知识，但也愈发感觉自己无知。真的就是印证了“所知越多，无知越多”。古希腊哲学家芝诺就曾经说过一句名言：人的知识就像一个圆，圆圈外是未知的，圆圈内是已知的，知道的越多，圆圈就会越大。圆的周长也就越大，于是乎，与未知接触的空间也就越多。很多事情刚开始看起来很简单，结果一做就会发现并非如此。<br>言归正传，我目前的博客所用到的工具或技术如下：</p>
+<table>
+<thead>
+<tr>
+<th align="center">框架/主题</th>
+<th align="center">部署位置</th>
+<th>个人图床</th>
+<th>博客书写</th>
+<th>网站加速</th>
+<th>托管</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><a class="link" href="https://hexo.io/zh-cn/">hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>（<a class="link" href="https://redefine-docs.ohevan.com/zh">Redefine<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>）</td>
+<td align="center"><a class="link" href="https://www.cloudflare.com/zh-cn/">Cloudflare Pages<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></td>
+<td><a class="link" href="https://github.com/MarSeventh/CloudFlare-ImgBed">开源项目<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>配合<a class="link" href="https://picgo.github.io/PicGo-Doc/zh/guide/">picgo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></td>
+<td><a class="link" href="https://obsidian.md/">Obsidian<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></td>
+<td><a class="link" href="https://www.youtube.com/watch?v=wuanNSAqoHM&t=71s">优选域名<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></td>
+<td><a class="link" href="https://github.com/">GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a><br></td>
+</tr>
+</tbody></table>
+<p>这些只是我尝试搭建博客的经历，也可能会有更好的方案，仅供参考。目前这一套流程下来，仅只有我购买域名的成本。不过不得不说，Cloudflare真是赛博活佛，给予免费用户这么多的功能。<br>由于篇幅原因，我打算将上述分三章来讲。</p>
+<h3 id="hexo框架初尝"><a href="#hexo框架初尝" class="headerlink" title="hexo框架初尝"></a>hexo框架初尝</h3><p>目前的博客框架多种多样，像Jekyll（Ruby）、Hugo（Go）、Hexo（Node.js）等的静态站点，也有诸如WordPress（PHP + MySQL）、Ghost（Node.js）等的动态平台。最初我用的是WordPress部署在自己本地服务器，怎么说呢，功能确实很多，插件丰富，但给我一种很重的感觉，并不太适合我。之后我发现了hexo框架，感觉非常符合我的需求：轻量化、部署方便、直接使用markdown编写博客。<br>进入官网，直接看操作文档。首先要安装node.js环境，进入官网，发现可以命令行安装。（以v22.15.1（LTS）、windows、fnm、npm为例）</p>
+<div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Download and install fnm:</span></span><br><span class="line">winget install Schniz.fnm</span><br><span class="line"></span><br><span class="line"><span class="comment"># Download and install Node.js:</span></span><br><span class="line">fnm install <span class="number">22</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Verify the Node.js version:</span></span><br><span class="line">node <span class="literal">-v</span> <span class="comment"># Should print "v22.15.1".</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Verify npm version:</span></span><br><span class="line">npm <span class="literal">-v</span> <span class="comment"># Should print "10.9.2".</span></span><br></pre></td></tr></table></figure></div>
+<p>再安装Git，Git 是一种分布式开源版本控制系统 (VCS)，可以用它存储代码、跟踪修订历史记录、合并代码更改，并在需要时恢复为较早的代码版本，方便部署到GitHub。（以windows/x64 Setup为例）<br><a class="link" href="https://git-scm.com/downloads/win">点击直达<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a><br>最后安装hexo框架</p>
+<div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">npm install hexo<span class="literal">-cli</span> <span class="literal">-g</span></span><br></pre></td></tr></table></figure></div>
+<p>以上工作全部完成后就可以创建一个默认的博客，使用以下命令</p>
+<div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">hexo init blog</span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure></div>
+<p>至此，已经完成了基础的博客搭建<br><img lazyload="" src="/images/loading.svg" data-src="https://picture.ssaw.top/file/blog/1747535180873_Snipaste_2025-05-18_10-24-43.webp" alt="Snipaste_2025-05-18_10-24-43.webp"></p>
+<h3 id="推送代码"><a href="#推送代码" class="headerlink" title="推送代码"></a>推送代码</h3><p>这么一个最基础的架子已经出来了。接下来该如何做？我认为是时候把他推送到GitHub上，理由如下</p>
+<hr>
+<ol>
+<li>得益于分布式开源管理系统Git，可以更好的对代码编写程度进行控制</li>
+<li>之后所用到的Cloudflare Pages与GitHub深度绑定，可以一键将代码部署到服务器</li>
+<li>…</li>
+</ol>
+<hr>
+<p>对于推送代码，可以不用git的官方命令，直接使用hexo插件中的<code>hexo deploy</code>直接一键部署（使用 <code>hexo init</code> 初始化项目时，默认安装的插件包含 <code>hexo-deployer-git</code>），下面将具体说明如何部署</p>
+<h5 id="生成SSH密钥"><a href="#生成SSH密钥" class="headerlink" title="生成SSH密钥"></a>生成SSH密钥</h5><h5 id="把公钥添加到-GitHub"><a href="#把公钥添加到-GitHub" class="headerlink" title="把公钥添加到 GitHub"></a>把公钥添加到 GitHub</h5>]]></content>
       <categories>
         <category>经验分享</category>
         <category>技术向</category>
@@ -53,7 +93,8 @@
   <entry>
     <title>服务器折腾（三）</title>
     <url>/2025/05/13/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%98%E8%85%BE%EF%BC%88%E4%B8%89%EF%BC%89/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>策马加“编”…</p>
+]]></content>
       <categories>
         <category>经验分享</category>
       </categories>
@@ -64,7 +105,8 @@
   <entry>
     <title>服务器折腾（二）</title>
     <url>/2025/05/10/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%98%E8%85%BE%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>策马加“编”…</p>
+]]></content>
       <categories>
         <category>经验分享</category>
       </categories>
@@ -75,13 +117,40 @@
   <entry>
     <title>picgo+CloudFlare-ImgBed</title>
     <url>/2025/05/14/picgo+CloudFlare-ImgBed/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>策马加“编”…</p>
+]]></content>
       <categories>
         <category>技术向</category>
         <category>经验分享</category>
       </categories>
       <tags>
         <tag>全流程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Springboot+vue前后端分离项目</title>
+    <url>/2025/05/18/Springboot+vue%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[<p>策马加“编”…</p>
+]]></content>
+      <categories>
+        <category>技术向</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>vue</tag>
+        <tag>前后端分离</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>优选域名加速个人博客</title>
+    <url>/2025/05/18/%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D%E5%8A%A0%E9%80%9F%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>策马加“编”…</p>
+]]></content>
+      <categories>
+        <category>技术向</category>
+      </categories>
+      <tags>
+        <tag>搬运</tag>
       </tags>
   </entry>
 </search>

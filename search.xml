@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Springboot+vue前后端分离项目</title>
+    <url>/2025/05/18/Springboot+vue%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[<p>策马加“编”…</p>
+]]></content>
+      <categories>
+        <category>技术向</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>vue</tag>
+        <tag>前后端分离</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo+cloudflare pages</title>
     <url>/2025/03/06/hexo+cloudflare%20pages+obsidian/</url>
     <content><![CDATA[<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>有那么一个网站，<a class="link" href="https://naccl.top/home">在我心里萌发了搭建博客的想法…<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
@@ -53,82 +67,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Springboot+vue前后端分离项目</title>
-    <url>/2025/05/18/Springboot+vue%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E9%A1%B9%E7%9B%AE/</url>
-    <content><![CDATA[<p>策马加“编”…</p>
-]]></content>
-      <categories>
-        <category>技术向</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>vue</tag>
-        <tag>前后端分离</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>picgo+CloudFlare-ImgBed</title>
-    <url>/2025/05/14/picgo+CloudFlare-ImgBed/</url>
-    <content><![CDATA[<p>策马加“编”…</p>
-]]></content>
-      <categories>
-        <category>技术向</category>
-        <category>经验分享</category>
-      </categories>
-      <tags>
-        <tag>全流程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>优选域名加速个人博客</title>
-    <url>/2025/05/18/%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D%E5%8A%A0%E9%80%9F%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>策马加“编”…</p>
-]]></content>
-      <categories>
-        <category>技术向</category>
-      </categories>
-      <tags>
-        <tag>搬运</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>服务器折腾(一)</title>
-    <url>/2025/05/03/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%98%E8%85%BE%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<h3 id="兴趣是最好的老师"><a href="#兴趣是最好的老师" class="headerlink" title="兴趣是最好的老师"></a>兴趣是最好的老师</h3><p>这一切的一切都源于一块板子，哦不，是那场比赛—<a class="link" href="http://gcxl.edu.cn/new/index.html">中国大学生工程实践与创新能力大赛<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>。去年十月份，学院下发这个比赛通知。说实话，我都没听过这个比赛（与我专业基本搭不上关系），出于好奇我也稍微看了一下，感觉还挺好玩的。之后同学s找到我，他说想参加试试，于是我们一拍即合，又去找了同学l和同学x组了一个队伍。我们选了智能赛道那个方向，要求制作一个可以对垃圾进行分类的回收装置。但最后的结果嘛，emmm，没有做出实物，最终只拿了一个校奖，但这些都不是重点。重点是当时同学s为此买了一个树莓派开发板外加一个显示屏。<br><img lazyload="" src="/images/loading.svg" data-src="https://picture.ssaw.top/file/blog/1747228382057_shumeipai.webp" alt="shumeipai.webp|450"></p>
-<p>当时看到这块板子我就被吸引住了，小巧的体积，不错的性能，美丽的价格（bushi）。同学s为它烧录树莓派专属的Linux系统，插上显示屏，就成了一个小型电脑了，刷b站毫无压力，有趣的嘞😄。当时我就也想着买一个这样的。之后我去淘宝搜索，好贵。去咸鱼搜，价格还好。诶？我想要的或许可以是一个迷你主机，而非一个开发板。它可以随时随地去访问这个主机，还比较小巧，并且价格合适，比树莓派性能更高。决定了！在我精心挑选之后选择了dell迷你主机（i5+16g+512g），890拿下。<br><img lazyload="" src="/images/loading.svg" data-src="https://picture.ssaw.top/file/blog/1747226553523_0025db570cc668be22861d5e2c6f48a.webp" alt="|350"><br>从此一发不可收拾…</p>
-]]></content>
-      <categories>
-        <category>经验分享</category>
-      </categories>
-      <tags>
-        <tag>折腾</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>服务器折腾（三）</title>
-    <url>/2025/05/13/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%98%E8%85%BE%EF%BC%88%E4%B8%89%EF%BC%89/</url>
-    <content><![CDATA[<p>策马加“编”…</p>
-]]></content>
-      <categories>
-        <category>经验分享</category>
-      </categories>
-      <tags>
-        <tag>折腾</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>服务器折腾（二）</title>
-    <url>/2025/05/10/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%98%E8%85%BE%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-    <content><![CDATA[<p>策马加“编”…</p>
-]]></content>
-      <categories>
-        <category>经验分享</category>
-      </categories>
-      <tags>
-        <tag>折腾</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>关于对教程主义的思考</title>
     <url>/2025/03/05/%E5%85%B3%E4%BA%8E%E5%AF%B9%E6%95%99%E7%A8%8B%E4%B8%BB%E4%B9%89%E7%9A%84%E6%80%9D%E8%80%83/</url>
     <content><![CDATA[<h3 id="始于"><a href="#始于" class="headerlink" title="始于"></a>始于</h3><p>前段时间（好像在3月左右吧）在b站上看到了一个视频，转自油管<a class="link" href="https://youtu.be/piBzLIdg3Ks?si=O8kiw9LrMBQ9NVh8">If You’re Not Motivated to Code, Do This.<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>。使我感悟颇深，我开始进行反思。</p>
@@ -151,6 +89,68 @@
       <tags>
         <tag>感悟</tag>
         <tag>什么才算真正的学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>优选域名加速个人博客</title>
+    <url>/2025/05/18/%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D%E5%8A%A0%E9%80%9F%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>策马加“编”…</p>
+]]></content>
+      <categories>
+        <category>技术向</category>
+      </categories>
+      <tags>
+        <tag>搬运</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>服务器折腾（三）</title>
+    <url>/2025/05/13/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%98%E8%85%BE%EF%BC%88%E4%B8%89%EF%BC%89/</url>
+    <content><![CDATA[<p>策马加“编”…</p>
+]]></content>
+      <categories>
+        <category>经验分享</category>
+      </categories>
+      <tags>
+        <tag>折腾</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>picgo+CloudFlare-ImgBed</title>
+    <url>/2025/05/14/picgo+CloudFlare-ImgBed/</url>
+    <content><![CDATA[<p>策马加“编”…</p>
+]]></content>
+      <categories>
+        <category>技术向</category>
+        <category>经验分享</category>
+      </categories>
+      <tags>
+        <tag>全流程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>服务器折腾(一)</title>
+    <url>/2025/05/03/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%98%E8%85%BE%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<h3 id="兴趣是最好的老师"><a href="#兴趣是最好的老师" class="headerlink" title="兴趣是最好的老师"></a>兴趣是最好的老师</h3><p>这一切的一切都源于一块板子，哦不，是那场比赛—<a class="link" href="http://gcxl.edu.cn/new/index.html">中国大学生工程实践与创新能力大赛<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>。去年十月份，学院下发这个比赛通知。说实话，我都没听过这个比赛（与我专业基本搭不上关系），出于好奇我也稍微看了一下，感觉还挺好玩的。之后同学s找到我，他说想参加试试，于是我们一拍即合，又去找了同学l和同学x组了一个队伍。我们选了智能赛道那个方向，要求制作一个可以对垃圾进行分类的回收装置。但最后的结果嘛，emmm，没有做出实物，最终只拿了一个校奖，但这些都不是重点。重点是当时同学s为此买了一个树莓派开发板外加一个显示屏。<br><img lazyload="" src="/images/loading.svg" data-src="https://picture.ssaw.top/file/blog/1747228382057_shumeipai.webp" alt="shumeipai.webp|450"></p>
+<p>当时看到这块板子我就被吸引住了，小巧的体积，不错的性能，美丽的价格（bushi）。同学s为它烧录树莓派专属的Linux系统，插上显示屏，就成了一个小型电脑了，刷b站毫无压力，有趣的嘞😄。当时我就也想着买一个这样的。之后我去淘宝搜索，好贵。去咸鱼搜，价格还好。诶？我想要的或许可以是一个迷你主机，而非一个开发板。它可以随时随地去访问这个主机，还比较小巧，并且价格合适，比树莓派性能更高。决定了！在我精心挑选之后选择了dell迷你主机（i5+16g+512g），890拿下。<br><img lazyload="" src="/images/loading.svg" data-src="https://picture.ssaw.top/file/blog/1747226553523_0025db570cc668be22861d5e2c6f48a.webp" alt="|350"><br>从此一发不可收拾…</p>
+]]></content>
+      <categories>
+        <category>经验分享</category>
+      </categories>
+      <tags>
+        <tag>折腾</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>服务器折腾（二）</title>
+    <url>/2025/05/10/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%98%E8%85%BE%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <content><![CDATA[<p>策马加“编”…</p>
+]]></content>
+      <categories>
+        <category>经验分享</category>
+      </categories>
+      <tags>
+        <tag>折腾</tag>
       </tags>
   </entry>
 </search>
